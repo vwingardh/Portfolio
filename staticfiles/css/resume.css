@@ -1,0 +1,223 @@
+/*! 
+ * Version: Bootstrap 5 v2.0
+ * Author: Vanessa Wingardh
+ * LinkedIn: /vanessawingardh
+ * Website: 
+*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 2%;
+    color: #545E6C;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h4 {
+    font-size: 35px;
+    color: #1C3879;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 550;
+}
+
+h2, h3, h5, h6 {
+    font-weight: 500;
+    color: #5584AC;
+}
+
+h3, h4 {
+    font-size: 20px;
+}
+
+h3 {
+    padding-bottom: 4%;
+}
+
+.left-column {
+    padding: 2%; 
+    background-color: #F0EBE3;
+}
+
+.main-container {
+    background-color: #F9F9F9;
+    margin-top: 2%;
+}
+
+/* ----- About me ------ */
+.about-me {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 1%;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.resume-photo {
+    height: 250px;
+}
+
+
+/* ----- Contact info ------ */
+.contact-header {
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.contact-items {
+    padding-bottom: 5%;
+    padding-left: 4%; 
+}
+
+.contact-items div {
+    padding-bottom: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: #5584AC;
+}
+
+.contact-items div:nth-child(4) {
+    color: #5584AC;
+    padding-bottom: 2%;
+}
+
+.contact-items div:nth-child(5) {
+    color: #5584AC;
+    padding-bottom: 6%;
+}
+
+.bi-house-door-fill .bi-telephone-fill .bi-envelope-fill {
+    color: #545E6C;
+}
+
+.bi {
+    margin-right: 2%;
+}
+
+a:hover {
+    color: #1C3879;
+    text-decoration: underline;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+
+/* ----- Skills ------ */
+.skills-header {
+    padding-top: 6%;
+}
+
+.skills-list {
+    padding-bottom: 4%;
+}
+
+.skills-list li {
+    padding-left: 4%;
+    background-color: #F0EBE3;
+}
+
+.skills-list li:last-child {
+    padding-bottom: 4%;
+}
+
+
+/* -----Education------ */
+.education-container {
+    margin-top: 1.5%;
+    padding-left: 4%;
+}
+
+.education-header {
+    padding-bottom: 2%;
+}
+
+.child-education-container {
+    padding-left: 1%; 
+}
+
+.university {
+    margin-top: 1%;
+}
+
+.years {
+    margin-top: -1%; 
+    
+}
+
+
+/* ----- Certification ------ */
+.certification-container {
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.cert-institution {
+    margin-top: -1%;
+    margin-bottom: 2%;
+}
+
+
+/* ----- Experience ------ */
+.experience-header {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.experience-list li {
+    margin-bottom: -4px;
+    background-color: #F9F9F9;
+    border-bottom: 0 none;
+}
+
+.experience-list li:last-child {
+    margin-bottom: 2%;
+}
+
+.exp-position {
+    padding-top: 2%;
+}
+
+@media (max-width: 768.92px) {
+    .education-container {
+        padding-top: 6%;
+    }
+    .certification-container {
+        padding-top: 8%;
+    } 
+    .experience-header {
+        padding-top: 8%;
+    }
+    .exp-position {
+        padding-top: 4%;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 992px) {
+    .resume-photo {
+        height: 150px;
+    }
+    .main-container {
+        margin: auto;
+    }
+    .contact-items {
+        padding-left: 8%; 
+    }
+}
+
+@media (min-width: 359px) and (max-width: 576px) {
+    .contact-items {
+        padding-left: 20%; 
+    }
+}
+
+

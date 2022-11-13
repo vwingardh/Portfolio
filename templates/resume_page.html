@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block title %}
+Vanessa Wingardh Resume
+{% endblock %}
+
+
+{% block aboutMeLink %}href="/#about-me"{% endblock %}
+
+{% block projectsLink %}href="/#projects"{% endblock %}
+
+{% block certificatesLink %}href="/#certificates"{% endblock %}
+
+{% block contactLink %}href="/#contact"{% endblock %}
+
+
+{% block content %}
+
+    <div class="iframe-embed-wrapper iframe-embed-responsive">
+        <iframe class="iframe-embed" src="{% static 'vanessa-wingardh-resume.pdf' %}"></iframe>
+    </div>
+
+{% endblock %}
