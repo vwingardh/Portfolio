@@ -4,7 +4,7 @@ My portfolio website built with Python and Django, hosted on PythonAnywhere.
 
 ## 🎥 Video Preview
 
-
+https://user-images.githubusercontent.com/101557392/203024182-cf834fc9-1dcd-4f14-a740-ef0389c98152.mp4
 
 ## 👩‍🔧 Getting Started
 
